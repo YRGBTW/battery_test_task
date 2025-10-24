@@ -1,0 +1,13 @@
+__pycache__/
+
+.venv/
+env/
+venv/
+
+app/migrations/versions/*.pyc
+
+.idea/
+
+.pytest_cache/
+htmlcov/
+.coverage

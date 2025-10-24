@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Battery Monitor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Batteries Project</h1>
+
+  <h2>📱 Devices</h2>
+  <div>
+    <input id="device-name" placeholder="Device name"  required />
+    <input id="device-version" placeholder="Version" />
+    <button onclick="createDevice()">Add</button>
+  </div>
+  <div id="devices"></div>
+
+  <h2>🔋 Batteries</h2>
+  <div>
+    <input id="battery-name" placeholder="Battery name"  required />
+    <input id="battery-voltage" placeholder="Voltage" type="number" />
+    <input id="battery-capacity" placeholder="Capacity" type="number" />
+    <input id="battery-lifespan" placeholder="Lifespan" type="number" />
+    <button onclick="createBattery()">Add</button>
+  </div>
+  <div id="batteries"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
